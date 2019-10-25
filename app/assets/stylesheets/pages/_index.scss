@@ -3,13 +3,23 @@
 $gray: #282E2E;
 $spacer: 8px;
 
+// body {
+//   background: {
+//     color: black;
+//      // image: asset_url("background.jpg");
+//      // size: cover;
+//   }
+// }
+
 body {
-  background: {
-    color: black;
-     // image: asset_url("background.jpg");
-     // size: cover;
-  }
+  background: url('wu-yi-9ds9FNzUEwM-unsplash.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
+
+
 
 h1, h5 {
   color:white;

@@ -1,0 +1,5 @@
+<h3>New Cocktail></h3>
+<%= link_to 'Home', cocktails_path %>
+
+<h1>Dose for: <%= @cocktail.name %></h1>
+<%= render 'form', dose: [@cocktail, @dose] %>

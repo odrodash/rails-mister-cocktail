@@ -1,3 +1,5 @@
-<h1>peNew Cocktail</h1>
-<%= render 'form', cocktail: @cocktails %>
-<%= link_to 'Home', cocktails_path %>
+<div class="container">
+  <h1>Name for the new Cocktail</h1>
+  <%= render 'form', cocktail: @cocktails %>
+  <%= link_to 'Back home', cocktails_path, class: 'text-danger'%>
+</div>

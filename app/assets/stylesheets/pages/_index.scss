@@ -1,2 +1,35 @@
 // Import page-specific CSS files here.
 @import "home";
+$gray: #282E2E;
+$spacer: 8px;
+
+body {
+  background: {
+    color: black;
+     // image: asset_url("background.jpg");
+     // size: cover;
+  }
+}
+
+h1, h5 {
+  color:white;
+  text-shadow: 1px 1px 2px black;
+}
+
+h5 {
+  color:gray;
+  text-shadow: 1px 1px 2px black;
+}
+
+li {
+  color:red;
+  a {
+    color:white;
+    font-size:15px;
+  }
+}
+
+
+ul {
+  list-style: none;
+}

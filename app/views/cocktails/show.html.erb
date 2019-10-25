@@ -4,7 +4,11 @@
   </div>
   <div class="row no-gutters">
     <div class="col-lg-8">
+      <% if @cocktail.photo.present? %>
       <%= cl_image_tag(@cocktail.photo, width: 300, height: 200, crop: :fill) %>
+      <% else %>
+        <p>empty</p>
+      <% end %>
     </div>
     <div class="col-lg-4">
       <div class="card-body">

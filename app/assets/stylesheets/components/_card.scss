@@ -8,11 +8,21 @@ a.trash{
 
 }
 
-
 a.link-to-text-color {
   color:white;
   text-decoration: none;
   text-shadow: 1px 1px 2px black;
+}
+
+.title {
+  margin:0 3px;
+  background-color:white;
+  color:secondary;
+  font-size:25px;
+  p {
+    margin:0px;
+    padding:0px;
+  }
 }
 
 
@@ -73,7 +83,6 @@ a.link-to-text-color {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 
 }
-
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {

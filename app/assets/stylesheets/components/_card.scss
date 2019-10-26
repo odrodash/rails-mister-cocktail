@@ -1,8 +1,23 @@
+.show-container {
+  margin:150px auto;
+  margin-bottom: 0px;
+  justify-content: center;
+  width:800px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius:20px;
+  padding:10px;
+  color:white;
+}
+
+.card {
+  border-radius:10px;
+}
+
 a.trash{
   color:white;
   opacity:0.2;
   &:hover{
-    opacity:0.5;
+    opacity:0.8;
   }
   text-shadow: 1px 1px 2px black;
 
@@ -24,12 +39,19 @@ a.link-to-text-color {
     padding:0px;
   }
 }
-
+#img-card {
+  border-radius:10px;
+  margin:5px;
+}
 
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
+}
+
+.card-body {
+  padding:0px;
 }
 
 .card-category {

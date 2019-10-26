@@ -1,6 +1,13 @@
 <%= simple_form_for [@cocktail, @dose] do |f| %>
   <%= f.input :description, label: 'Description' %>
-  <%= f.input :ingredient_id, label: 'Ingredient', collection: @ingredients %>
-  <%= f.button :submit, class: 'btn btn-danger' %>
+  <%= f.error_notification %>
+  <%= f.input :ingredient_id, label: 'Ingredient', collection: @ingredients, input_html: { multiple: true } %>
+
+  <div class="form-group row mb-0">
+    <div class="col-sm-9 offset-sm-3">
+      <%= f.button :submit, class: 'btn btn-danger' %>
+      <%= f.button :button, "Cancel", type: "reset", class: "btn-outline-secondary" %>
+    </div>
+  </div>
 <% end %>
 

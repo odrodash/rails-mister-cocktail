@@ -1,5 +1,8 @@
-<h1>Cocktail></h1>
-
-<h1>Dose for: <%= @cocktail.name %></h1>
-<%= render 'form', dose: [@cocktail, @dose], class: 'form-text' %>
-<%= link_to 'Back cocktail', cocktail_path(@cocktail), class: 'text-danger'  %>
+  <div class="dose-container">
+    <h1>Cocktail></h1>
+    <div>
+      <h1>Dose for: <%= @cocktail.name %></h1>
+      <%= render 'form', dose: [@cocktail, @dose], class: 'form-text' %>
+      <%= link_to 'Back cocktail', cocktail_path(@cocktail), class: 'text-danger'  %>
+    </div>
+  </div>

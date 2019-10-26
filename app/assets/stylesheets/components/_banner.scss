@@ -1,13 +1,16 @@
 .home-banner {
+  display:flex;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
   background-image: url('https://res.cloudinary.com/dmuryw7rj/image/upload/v1572059965/uxetk0gi4hqxb2rwsrd4.png');
   background-size: auto;
   background-repeat: no-repeat;
   height: 400px;
   width:1110px;
   color: #eee;
-  text-align: center;
-  vertical-align: middle;
   padding-top: 0vh;
-  display: inline-block;
-  vertical-align: middle;
+  font-size:80px;
+  text-shadow: 10px 8px 8px black;
 }

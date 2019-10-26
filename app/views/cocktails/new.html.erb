@@ -1,5 +1,9 @@
-<div class="container">
-  <h1>Name for the new Cocktail</h1>
-  <%= render 'form', cocktail: @cocktails %>
-  <%= link_to 'Back home', cocktails_path, class: 'text-danger'%>
+<div>
+  <div class="show-container">
+    <div class="container">
+      <h1>Name for the new Cocktail</h1>
+      <%= render 'form', cocktail: @cocktails %>
+      <%= link_to 'Back home', cocktails_path, class: 'text-danger'%>
+    </div>
+  </div>
 </div>
